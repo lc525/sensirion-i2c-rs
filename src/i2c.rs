@@ -1,7 +1,7 @@
 //! Helper functions for I²C communication.
 
 use crate::crc8;
-use embedded_hal::blocking::i2c;
+use embedded_hal::i2c::blocking as i2c;
 
 /// All possible errors in this crate
 #[derive(Debug, PartialEq, Copy, Clone)]
